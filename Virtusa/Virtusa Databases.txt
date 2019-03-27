@@ -1,0 +1,55 @@
+create database fest_management;
+
+use fest_management;
+
+//Registration table
+create table registrations
+(
+name varchar(30),
+rollno varchar(12),
+email varchar(35),
+phno int,
+clgname varchar(50),
+password varchar(20),
+primary key(rollno)
+);
+
+//kmit student database
+create table kmitdb
+(
+rno varchar(12),
+stname varchar(30),
+email varchar(30),
+primary key (rno)
+);
+
+//successfully registered students
+create table event_reg
+(
+id int auto_increment,
+rno varchar(12),
+name varchar(30),
+email varchar(35),
+clg varchar(50),
+primary key(id),
+foreign key(rno) references registrations(rollno)
+);
+
+//bank db
+create table bank
+(
+card_holder varchar(35),
+cardno varchar(25),
+cvv int,
+expiry_month int,
+expiry_year int,
+primary key (cardno)
+);
+
+//events registered by students
+create table events
+(
+rollno varchar(12),
+events_registered varchar(10),
+foreign key(rollno) references event_reg(rno)
+);

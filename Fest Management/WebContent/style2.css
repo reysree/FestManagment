@@ -1,0 +1,76 @@
+
+
+/*Create colomns that floats next to each other*/
+.colomn1{
+	float: left;
+	color: white;
+	opacity:0.75;
+	padding-left: 30px;
+	width:40%;
+	height:40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('2017-hosanna-10977_orig.jpg');
+	margin-left: 10%;
+	
+}
+.colomn2{
+	float: right;
+	color: white;
+	opacity:0.75;
+	padding-left: 30px;
+	width:40%;
+	height:40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('code.jpeg');
+	margin-right: 10%;
+	
+}
+.colomn3{
+	float: left;
+	opacity:0.75;
+	color: white;
+	padding: 30px;
+	width:40%;
+	height:40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('game.jpeg');
+	margin-left: 10%;
+}
+.colomn4{
+	float: right;
+	opacity:0.75;
+	color: white;
+	padding: 30px;
+	width:40%;
+	height:40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('1.jpeg');
+	margin-right: 10%;
+}
+/*create floats after the colomn*/
+.container1:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+input[type=submit],select {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+  }
+  
+

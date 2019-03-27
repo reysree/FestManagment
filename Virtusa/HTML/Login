@@ -1,0 +1,11 @@
+<html>
+<body>
+ <form>
+	<label>STUDENT NAME :&nbsp </label>
+		<INPUT TYPE="text" NAME="uname"><br><br>
+		<label>PASSWORD : &nbsp	</label>
+		<INPUT TYPE="password" NAME="pwd"><br><br>
+		<INPUT TYPE="submit" NAME="login" VALUE="LOGIN">
+ </form>
+<body>
+</html>

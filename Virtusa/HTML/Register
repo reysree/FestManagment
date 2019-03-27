@@ -1,0 +1,24 @@
+<html>
+
+<body>
+	<form>
+		<label>STUDENT NAME :&nbsp </label>
+		<INPUT TYPE="text" NAME="uname"><br><br>
+		<label>ROLL NO : &nbsp	</label>
+		<INPUT TYPE="text" NAME="rno"><br><br>
+		<label>PHONE NUMBER :&nbsp</label>
+		<INPUT TYPE="text" NAME="phno"><br><br>
+		<label>E-MAIL ID :&nbsp 	</label>
+		<INPUT TYPE="email" NAME="rno"><br><br>
+		<label> COLLEGE </label>
+		<sub>(Are you from kmit)&nbsp&nbsp </sub>
+		<INPUT TYPE="radio" NAME="clg">yes
+		<INPUT TYPE="radio" NAME="clg">no<br><br>
+		<label>PASSWORD :&nbsp </label>
+		<INPUT TYPE="password" NAME="pwd"><br><br>
+		<label>CONFIRM PASSWORD : &nbsp	</label>
+		<INPUT TYPE="password" NAME="cpwd"><br><br>
+		<INPUT TYPE="submit" NAME="register" VALUE="REGISTER">
+	</form>
+</body>
+</html>

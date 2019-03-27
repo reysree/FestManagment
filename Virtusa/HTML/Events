@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>events</title>
+</head>
+<body>
+<h1> KMIT SAANJH </h1>
+
+   16th may 2019,from 10am onwards..
+   <br>
+   <br>
+<a href="login.html" >Login</a><br></br>
+<a href="register.html" >Register</a><br></br>
+<h2> Our events are </h2>
+<h3> <b> Dance </b> </h3>
+ Timings: 4:00pm-5:00pm
+      <br> Participants limit: 30 </br> 
+<h3> Drama </h3>
+ Timings: 11:00am-1:00pm
+      <br> Participants limit: 40 </br> 
+<h3> Food court </h3>
+ Timings: 12:00pm-till the end
+      <br> Participants limit: 30 </br> 
+<h3> concerts </h3>
+ Timings: 5:00pm-8:00pm
+      <br> Participants limit: 30 </br> 
+</body>
+</html>
